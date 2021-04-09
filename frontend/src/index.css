@@ -178,7 +178,9 @@ img.large {
 }
 
 /* Alert */
-
+.loading {
+  display: block !important;
+}
 .success {
   color: #20a020;
 }
@@ -234,4 +236,18 @@ img.large {
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Checkout Steps */
+.checkout-steps > div {
+  border-top: 0.4rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+.checkout-steps > div.active {
+  border-top-color: #f08000;
+  color: #f08000;
 }
